@@ -1,6 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta property="og:url" content="https://rafayleghari.me">
+	<meta property="og:title" content="Rafay Leghari">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Software Engineering & Management Student At McMaster University. Software engineer.">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Rafay Leghari's Personal Website</title>
+</head>
 <body>
-	<h1>Hello World</h1>
-</body>
-</html>
+ 	<div class="pagecontents">
+		<div class="navbar">
+			<a href="#">home</a>
+			<a href="RafayResume.pdf">resume</a>
+			<a href="http://www.github.com/legharir">github</a>
+			<a href="http://www.linkedin.com/in/rafayleghari">linkedin</a>
+		</div>	
+		<div id="intro">
+			<h1>I'm Rafay Leghari.</h1>
+			<p>I am a <a href="https://github.com/legharir">programmer</a> and software engineering student at McMaster University. I like to play badminton and werewolf, one of my favourite board games. Currently, I'm interning at SAP in Toronto as a quality engineer. During my time here, I've been busy automating test suites and writing bugfixes with Python and Java.
+			</p>
+			<p>If you want to reach me, don't hesitate to send me an <a href="mailto:contact:legharir@mcmaster.ca">email</a>.</p>
+			<h2>I like making things.</h2>
+			<p>Here are some of the projects I've worked on over the past few years:</p>
+		</div>
+		<div id="projects">
+			<ul>
+				<li>
+					Developed the control logic and program for the <i>Sitallite</i>, a fully controllable ballon craft that was deployed at <a href="http://www.vanwyn.com">VanWyn</a>. Implemented C++ programs utilising the Pozyx system and multiple microcontrollers to enable wireless control of the drone. In order to fine tune the flight, I also developed a JavaFX based GUI that could perform flight tests on the drone and output flight information to a file. Here is a video of the first flight:
+				</li>
+				<video style=noindent width="600" height="400" controls>
+					<source src="videos/firstflight.mp4" type="video/mp4"> Unfortunately, your browser does not support the video.
+				</video>
+					<li>
+						Worked with a team of 4 to develop <a href="https://github.com/legharir/ScanShop-">ScanShop</a>, an Android application that can scan a product's barcode (UPC/EAN), then search through a dataset to display retailers that sell the item online, sorted by descending order of selling price. For this project, I implemented a JSON parser that is able to translate product information from zipped JSON files to product objects. A trie was implemented to search through the dataset, allowing users to query products using substrings of the product name, rather than exclusively scanning the product's barcode.
+					</li>
+					<li>
+						Recreated 'Color Switch', a popular mobile game, on the web. Implemented using Javascript and the p5 library. If you wish, you may play it <a href="http://legharir.github.io/test">here.</a>
+					</li>
+					<center><img src="images/colourswitch.png" align="middle" height="400"></center>
+				</ul>
+			</div>
+		</div>
+	</body>
+	</html>
