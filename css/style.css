@@ -1,26 +1,26 @@
 body {
-	font-size: 16px;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 div.pagecontents {
-	margin-left: auto;
-	margin-right: auto;
-	width: 42em
+  margin-left: auto;
+  margin-right: auto;
+  width: 42em;
 }
 
 div.navbar {
-	display: inline-block;
-	padding: 10px;
-	background-color: lightblue;
-	border-radius: 2px;
-	margin: 10px 0
+  display: inline-block;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 2px;
+  margin: 10px 0;
 }
 
 li {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 img {
-    margin: 10px;
+  margin: 10px;
 }
-
